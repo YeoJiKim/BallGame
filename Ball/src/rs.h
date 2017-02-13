@@ -1,0 +1,4 @@
+#define BALL_AMOUNT 10
+#define PLAYER_RADIUS 30
+#define TREASURE_AMOUNT 10
+#define FINAL_LEVEL 2

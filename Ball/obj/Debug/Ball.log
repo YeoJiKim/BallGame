@@ -1,0 +1,55 @@
+﻿生成启动时间为 2016/10/23 16:55:09。
+     1>项目“D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\Ball.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\ADOBE\vs2012\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /Isrc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\ofDragBall2App.cpp
+         ofDragBall2App.cpp
+     1>d:\adobe\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(126): warning C4250: “Poco::InputStreamConverter”: 通过域控制继承“std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 d:\adobe\vs2012\vc\include\istream(74) : 参见“std::basic_istream<_Elem,_Traits>::_Add_vtordisp1”的声明
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>d:\adobe\of_v0.8.4_vs_release\libs\poco\include\poco\streamconverter.h(144): warning C4250: “Poco::OutputStreamConverter”: 通过域控制继承“std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2”
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 d:\adobe\vs2012\vc\include\ostream(90) : 参见“std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2”的声明
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+       Link:
+         D:\ADOBE\vs2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Ball_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudioD.lib videoInputD.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib ssleay32MD.lib libeay32MD.lib crypt32.lib PocoFoundationmdd.lib PocoNetmdd.lib PocoUtilmdd.lib PocoXMLmdd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:PocoFoundationmdd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:msvcrt /NODEFAULTLIB:libcmt /NODEFAULTLIB:LIBC /NODEFAULTLIB:LIBCMTD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Ball_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\Ball_debug.lib" /MACHINE:X86 /SAFESEH obj\Debug\icon.res
+         obj\Debug\Ball.obj
+         obj\Debug\main.obj
+         obj\Debug\ofDragBall2App.obj
+         obj\Debug\Treasure.obj
+         D:\ADOBE\of_v0.8.4_vs_release\libs\openFrameworksCompiled\lib\vs\openframeworksLib_debug.lib
+         Ball.vcxproj -> D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\bin\Ball_debug.exe
+       PostBuildEvent:
+         xcopy /e /i /y "D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\*.dll" "D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\bin"
+         :VCEnd
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\Assimp32.dll
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\fmodex.dll
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\fmodexL.dll
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\FreeImage.dll
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\FreeType-6.dll
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\glut32.dll
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\libeay32.dll
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\ssleay32.dll
+         D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\..\..\..\export\vs\Zlib.dll
+         复制了 9 个文件
+     1>已完成生成项目“D:\ADOBE\of_v0.8.4_vs_release\apps\myApps\Ball\Ball.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:25.08
